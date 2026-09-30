@@ -1,7 +1,7 @@
 {
   "$GMSprite":"v2",
   "%Name":"Spr_wall",
-  "bboxMode":0,
+  "bboxMode":1,
   "bbox_bottom":7,
   "bbox_left":0,
   "bbox_right":7,
@@ -78,7 +78,7 @@
     },
     "name":"Spr_wall",
     "playback":1,
-    "playbackSpeed":30.0,
+    "playbackSpeed":1.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",

@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_room_cleaner",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Obj_Tree",
+  "eventList":[],
   "managed":true,
-  "name":"Obj_room_cleaner",
+  "name":"Obj_Tree",
   "overriddenProperties":[],
   "parent":{
     "name":"gr_desen",
@@ -29,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Spr_Tree",
+    "path":"sprites/Spr_Tree/Spr_Tree.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

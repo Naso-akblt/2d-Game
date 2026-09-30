@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Main_char",
-    "path":"folders/Spr/Char/Main_char.yy",
+    "name":"char_moment",
+    "path":"folders/Spr/Char/Main_char/char_moment.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

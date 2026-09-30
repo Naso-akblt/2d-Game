@@ -5,6 +5,12 @@ var left = keyboard_check(ord("A"));
 var right = keyboard_check(ord("D"));
 moving = false
 
+
+
+
+
+
+if(attack == false){
 if(up){
 sprite_index = Spr_frontBack_walk
 y = y - char_speed
@@ -44,7 +50,7 @@ sprite_index = Spr_Main_char_walk
 image_xscale = 1
 last_dir = "side_r"
 }
-
+}
 
 if(!moving){
 switch(last_dir){
@@ -65,10 +71,22 @@ break;
 }
 }
 
+if(mouse_check_button(mb_left)){
+attack = true
+attack_styl = "max_damage"
+}if(mouse_check_button(mb_right)){
+attack = true
+attack_styl = "max_range"
+}
 
 
 
-
+if(attack == true){
+	if(attack_styl == "max_damage"){
+sprite_index = Spr_attack_full
+	}
+attack = false
+}
 
 
 
